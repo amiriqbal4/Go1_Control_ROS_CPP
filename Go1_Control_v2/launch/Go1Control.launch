@@ -1,0 +1,8 @@
+<launch>
+    <arg name="type" default="hardware"/>
+    <arg name="solver_type" default="qp"/>
+
+    <rosparam file="$(find Go1_Control_v2)/config/Go1_$(arg type)_$(arg solver_type).yaml" command="load"/>
+
+    <node pkg="Go1_Control_v2" type="Go1Control_$(arg type)" name="Go1Control_$(arg type)" output="screen"/>
+</launch>

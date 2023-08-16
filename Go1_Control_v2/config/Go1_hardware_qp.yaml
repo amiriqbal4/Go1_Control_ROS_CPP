@@ -1,0 +1,164 @@
+use_sim_time: false
+go1_hardware_power_level: 5
+stance_leg_control_type: 0 # 0: QP; 1: MPC
+
+# physics parameters
+
+go1_robot_mass: 11.5
+
+# xyz="0.011611 0.004437 0.000108"/> inertial offset of the base
+#
+# xcom_offset: 0.011611
+# ycom_offset: 0.004437
+# FootPring =GeometricPrint+CoM offset
+
+
+# # default foothold position
+
+go1_default_foot_pos_FR_x: 0.208
+go1_default_foot_pos_FR_y: -0.125
+go1_default_foot_pos_FR_z: -0.28
+
+go1_default_foot_pos_FL_x: 0.208
+go1_default_foot_pos_FL_y: 0.125
+go1_default_foot_pos_FL_z: -0.28
+
+go1_default_foot_pos_RR_x: -0.16
+go1_default_foot_pos_RR_y: -0.125
+go1_default_foot_pos_RR_z: -0.28
+
+go1_default_foot_pos_RL_x: -0.16
+go1_default_foot_pos_RL_y: 0.125
+go1_default_foot_pos_RL_z: -0.28
+
+# go1_default_foot_pos_FR_x: 0.20
+# go1_default_foot_pos_FR_y: -0.125
+# go1_default_foot_pos_FR_z: -0.28
+
+# go1_default_foot_pos_FL_x: 0.20
+# go1_default_foot_pos_FL_y: 0.125
+# go1_default_foot_pos_FL_z: -0.28
+
+# go1_default_foot_pos_RR_x: -0.17
+# go1_default_foot_pos_RR_y: -0.125
+# go1_default_foot_pos_RR_z: -0.28
+
+# go1_default_foot_pos_RL_x: -0.17
+# go1_default_foot_pos_RL_y: 0.125
+# go1_default_foot_pos_RL_z: -0.28
+
+# # default foothold position
+
+# go1_default_foot_pos_FR_x: 0.1996
+# go1_default_foot_pos_FR_y: -0.1226
+# go1_default_foot_pos_FR_z: -0.28
+
+# go1_default_foot_pos_FL_x: 0.1996
+# go1_default_foot_pos_FL_y: 0.1226
+# go1_default_foot_pos_FL_z: -0.28
+
+# go1_default_foot_pos_RR_x: -0.188
+# go1_default_foot_pos_RR_y: -0.1314
+# go1_default_foot_pos_RR_z: -0.28
+
+# go1_default_foot_pos_RL_x: -0.188
+# go1_default_foot_pos_RL_y: 0.1314
+# go1_default_foot_pos_RL_z: -0.28
+
+# default foothold position
+
+# go1_default_foot_pos_FR_x: 0.188
+# go1_default_foot_pos_FR_y: -0.127
+# go1_default_foot_pos_FR_z: -0.28
+
+# go1_default_foot_pos_FL_x: 0.188
+# go1_default_foot_pos_FL_y: 0.127
+# go1_default_foot_pos_FL_z: -0.28
+
+# go1_default_foot_pos_RR_x: -0.188
+# go1_default_foot_pos_RR_y: -0.127
+# go1_default_foot_pos_RR_z: -0.28
+
+# go1_default_foot_pos_RL_x: -0.188
+# go1_default_foot_pos_RL_y: 0.127
+# go1_default_foot_pos_RL_z: -0.28
+
+
+
+
+
+go1_gait_counter_speed_FR: 1.0
+go1_gait_counter_speed_FL: 1.0
+go1_gait_counter_speed_RR: 1.0
+go1_gait_counter_speed_RL: 1.0
+
+
+# foot swing controller parameters
+# force_tgt = km_foot * kp_foot * foot_pos_error
+
+# go1_kp_foot_x: 350.0
+# go1_kp_foot_y: 250.0
+# go1_kp_foot_z: 200.0 #350.0
+
+# go1_kd_foot_x: 6.0
+# go1_kd_foot_y: 6.0
+# go1_kd_foot_z: 5.0
+
+# go1_km_foot_x: 0.1
+# go1_km_foot_y: 0.1
+# go1_km_foot_z: 0.1
+###############################
+go1_kp_foot_x: 80.0 #100
+go1_kp_foot_y: 120.0 #100
+go1_kp_foot_z: 20.0 #40
+
+go1_kd_foot_x: 3.0
+go1_kd_foot_y: 3.0
+go1_kd_foot_z: 2.0
+
+go1_km_foot_x: 0.1
+go1_km_foot_y: 0.1
+go1_km_foot_z: 0.1
+#############
+###############################
+################################
+
+# foot stance force controller parameters
+# root_acc = [root_ddot_p_deisre; root_ddot_w_desire]
+# root_ddot_p_deisre = kp_linear (pos error)
+# + kd_linear (linear velocity error)
+# root_ddot_w_desire = kp_angular (euler error)
+# + kd_linear (rotation velocity error)
+# root_acc are used to compute ground contact force
+###########################################
+go1_kp_linear_x: 80.0
+go1_kp_linear_y: 60.0
+go1_kp_linear_z: 120.0 #1500
+
+go1_kd_linear_x: 10.0
+go1_kd_linear_y: 10.0
+go1_kd_linear_z: 5.0
+
+go1_kp_angular_x: 120.0
+go1_kp_angular_y: 120.0
+go1_kp_angular_z: 40.0
+
+go1_kd_angular_x: 10.0
+go1_kd_angular_y: 10.0
+go1_kd_angular_z: 2.0
+############################################
+# go1_kp_linear_x: 400.0
+# go1_kp_linear_y: 400.0
+# go1_kp_linear_z: 500.0 #1500
+
+# go1_kd_linear_x: 300.0
+# go1_kd_linear_y: 200.0
+# go1_kd_linear_z: 120.0
+
+# go1_kp_angular_x: 40.0
+# go1_kp_angular_y: 40.0
+# go1_kp_angular_z: 10.0
+
+# go1_kd_angular_x: 1.0
+# go1_kd_angular_y: 1.0
+# go1_kd_angular_z: 0.5

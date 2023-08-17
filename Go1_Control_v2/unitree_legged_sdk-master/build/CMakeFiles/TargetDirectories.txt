@@ -1,0 +1,11 @@
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/install/strip.dir
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/install/local.dir
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/install.dir
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/list_install_components.dir
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/example_velocity.dir
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/example_walk.dir
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/rebuild_cache.dir
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/example_position.dir
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/example_torque.dir
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/example_joystick.dir
+/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/build/CMakeFiles/edit_cache.dir

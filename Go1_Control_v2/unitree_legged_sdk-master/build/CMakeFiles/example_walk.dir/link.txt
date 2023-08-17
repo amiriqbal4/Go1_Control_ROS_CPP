@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -fPIC  -rdynamic CMakeFiles/example_walk.dir/example/example_walk.cpp.o  -o example_walk  -L/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/lib/cpp/amd64 -Wl,-rpath,/home/amir/ros_catkin_ws/catkin_ws/src/Go1_Control_v2/unitree_legged_sdk-master/lib/cpp/amd64: -pthread -lunitree_legged_sdk 
